@@ -3,7 +3,7 @@
 # See the example below on the left and how it should look on the right.
 # def make_a_new_movie_instance    # def make_a_new_movie_instance
 #   movie = __                     #   movie = Movie.new
-# end                              # end
+# end        
 
 def can_be_instantiated_and_then_saved
   movie = Movie.new
